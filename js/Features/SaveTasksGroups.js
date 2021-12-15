@@ -1,0 +1,4 @@
+class SaveTasksGroups {
+  // static
+  saveTasksGroups() {}
+}

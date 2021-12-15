@@ -1,0 +1,105 @@
+.articles-saved-app {
+  display: none;
+  position: absolute;
+  top:50%;
+  width: 50%;
+  min-height: 100px;
+  border: 0px solid whitesmoke;
+  font-size:.9rem;
+  box-sizing: border-box;
+  background: var(--mn-clr);
+  left: 25%;
+  box-shadow: 1px 1px 5px whitesmoke, -1px -1px 5px whitesmoke;
+  border-radius: 7px;
+}
+
+.articles-saved-app footer, div.saved-articles, header {
+  position: relative;
+  width:100%;
+  min-height:20px;
+  border:1px solid var(--brn-clr);
+  padding:10px 23px;
+  /* background: ; */
+}
+
+.articles-saved-app header {
+  background: var(--mn-clr);
+  border:1px solid #f5f5f5;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.articles-saved-app header aside {
+  width:40%;
+  display:inline;
+}
+
+.articles-saved-app header .take-articles {
+  
+}
+.articles-saved-app header .take-articles input {
+  padding:4px 23px;
+  border: 1px solid whitesmoke;
+  border-radius: 37px;
+  margin: 0px 4px;
+  font-size: .8rem;
+  background: whitesmoke;
+  transition: all .3s linear;
+  color: var(--mn-clr);
+}
+
+.articles-saved-app header .articles-controls {
+  
+}
+
+.articles-saved-app header .articles-controls button {
+  float:right;
+  /* direction: rtl; */
+  border:1px solid whitesmoke;
+  /*! border-right: 1px solid var(--mn-clr); */
+  color:whitesmoke;
+  background-color: transparent;  
+  cursor: pointer;
+  padding:5px 15px;
+  margin: 0px 5px;
+  border-radius: 7px;
+  /*! font-size: .9rem; */
+  transition: all .3s linear;
+}
+
+.articles-saved-app header .articles-controls button:hover {
+  background:#a66;
+  color:white;
+  opacity: .8;
+}
+
+.articles-saved-app header .articles-controls button.save-article {
+  background: #ff7979 !important;
+  color:var(--brn-clr) !important;
+  opacity: .8 !important;
+  border-color: #ff7979;
+  font-weight: bold;
+}
+
+
+.articles-saved-app div.saved-articles {
+  min-height:54px;
+  background:white !important;
+}
+
+.articles-saved-app div.saved-articles a {
+  margin:2px 5px;
+  color:#c16677;
+}
+
+
+.articles-saved-app footer {
+  
+  background: whitesmoke;
+  color: var(--mn-clr);
+  border-top: 3px solid var(--mn-clr);
+}
+
+.articles-saved-app footer .articles-num-cnt {
+  text-decoration: underline;
+  /*! font-weight: bold; */
+}

@@ -1,0 +1,7 @@
+describe("TestStringUtilities", function() {
+it("converts to capital", function() {
+var str = "albert";
+expect(capitalizeName(str)).toEqual("ALBERT");
+});
+
+});
