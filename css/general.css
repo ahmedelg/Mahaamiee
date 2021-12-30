@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+:root {
+  /* --mn-clr: rgba(15, 88, 156, 0.6); */
+  --mn-clr: rgb(128, 107, 107);
+  /* --mn-clr: rgba(213, 233, 37, 0.6); */
+  /* --mn-clr: #981010; */
+  /* --bx-sh: #fff; */
+  --bx-sh: #806b6b;
+  --btn-bkg-1: #f5f5;
+  /* --brn-clr: rgb(222, 239, 255); */
+  --brn-clr: rgb(251, 218, 198);
+  --clr-1: #981010;
+  --tsk-option: #d4d4d4;
+  --txt-clr:#ffffff;
+  
+}
+
+/* html{height:auto;} */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../assets/imgs/patterns/hotel-wallpaper.png);
+  /* background-repeat: no-repeat;
+  background-size:cover;
+  image-resolution: 300dpi; */
+  overflow: scroll;
+  overflow-x:hidden;
+}
+
+/* .overlay{position: absolute;top:0;bottom:0;left:0;right:0;background-color:#f7484854;} */

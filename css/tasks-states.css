@@ -1,0 +1,19 @@
+.current-task p.task-identifier
+{
+  background: var(--brn-clr);
+  color: var(--mn-clr);
+  border-color: var(--brn-clr);
+  box-shadow: 1px 1px 7px var(--brn-clr), -1px -1px 7px var(--brn-clr);
+}
+
+.current-task p.task-identifier::selection {
+  background:rgb(17, 17, 17);
+  color:#ddd;
+}
+
+.current-task p.task-identifier .build-date
+{
+  /* border-color:var(--mn-clr);
+  background: var(--mn-clr);
+  color: var(--brn-clr); */
+}

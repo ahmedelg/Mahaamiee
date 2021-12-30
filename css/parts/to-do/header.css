@@ -1,0 +1,33 @@
+#to-do-header {
+  /*border:1px solid #000;*/
+  /*background:#000;*/
+  color:var(--brn-clr);
+}
+
+#to-do-header .notified-tasks {
+  display: inline-block;
+}
+
+#to-do-header .notified-tasks span:nth-child(1) {
+  margin-right:.2rem;
+}
+
+#to-do-header .notified-tasks span:nth-child(1):hover {
+  color:#f5f;
+}
+#to-do-header .notified-tasks span:nth-child(2) {
+  text-decoration: underline;
+}
+
+
+
+#to-do-header .notified-tasks .notified-tasks_num {
+  border: 1px solid var(--brn-clr);
+  background-color: var(--brn-clr);
+  color: var(--mn-clr);
+  padding: .1rem .4rem;
+  border-radius: 50%;
+  font-size: .8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
