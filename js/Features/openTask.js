@@ -4,4 +4,8 @@
       & DISPLAY DETAILS F TASK - HANDLE DETAILS F TASK
    #############################################################  */
 "use strict";
-const openTask = () => {};
+const openTask = () => { };
+
+
+// OPEN TASK
+

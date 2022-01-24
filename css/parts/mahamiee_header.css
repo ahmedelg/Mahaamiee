@@ -1,0 +1,51 @@
+.mahamiee-header {
+  position: relative;
+  width: 95%;
+  height: 250px;
+  /* background: linear-gradient(to left, red, blue), url('../../assets/imgs/backgrounds/background.jpg'); */
+  background-image: url('../../assets/imgs/backgrounds/background.jpg');
+  ;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0cm;
+  /* box-shadow: 1px 1px 13px #719ef9; */
+  margin: 25px 2.2333333%;
+  border-left: 25px solid #806b6b;
+  border-right: 25px solid #806b6b;
+  border-radius: 19px;
+}
+
+.mahamiee-header_content {}
+
+:root {}
+
+.developers-details {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  text-align: center;
+}
+
+
+.developers-details .developer-image {
+  width: 100px;
+  height: 100px;
+  border: 1px solid whitesmoke;
+  border-radius: 100px;
+  margin: 0 auto;
+
+  background-image: url('../../assets/imgs/developers/algaied.JPG');
+  /* background-image: url('../../assets/imgs/developers/Fabio.JPG'); */
+  background-repeat: no-repeat !important;
+  background-position: 0px -7px !important;
+  background-size: cover !important;
+}
+
+.developers-details .developer-name {
+  color: whitesmoke;
+  padding: .2rem 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}

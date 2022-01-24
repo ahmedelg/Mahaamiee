@@ -1,6 +1,8 @@
 @import "./parts/tools-box.css";
 @import "./shapes/shapes.css";
 
+@import "./parts/mahamiee_header.css";
+
 .wow {
   visibility: hidden;
 }
