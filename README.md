@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## mahamiee_web_app
 
 `website` `to-do` `js` `css` `animations` `productivity` `localStorage`
@@ -58,3 +59,7 @@ is a to-do app used to handle the work for users with more productivity features
 1. Documentation:
 1. Manual User:
 
+=======
+## Mahaamiee
+>> a to do app for developers
+>>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd

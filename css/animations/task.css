@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @keyframes upADown {
   0% {
     transform: translateX(-5px);
@@ -87,4 +88,95 @@
 
 .task:hover .task-name{
   animation: changeTaskBg 0.2s linear 1 alternate-reverse;
+=======
+@keyframes upADown {
+  0% {
+    transform: translateX(-5px);
+  }
+
+  20% {
+    transform: translateX(5px);
+  }
+
+  40% {
+    transform: translateX(-3px);
+  }
+
+  60% {
+    transform: translateX(3px);
+  }
+
+  80% {
+    transform: translateX(-2px);
+  }
+
+  100% {
+    transform: translateX(2px);
+  }
+}
+
+@keyframes changeTaskBg {
+  0% {
+    transform: translateX(-5px);
+    background:rgba(0,0,0,.2);
+  }
+
+  20% {
+    background:rgba(0,0,0,.3);
+  }
+
+  40% {
+    background:rgba(0,0,0,.5);
+  }
+
+  60% {
+    background:rgba(0,0,0,.7);
+  }
+
+  80% {
+    background:rgba(0,0,0,.8);
+  }
+
+  100% {
+    background:#f5f5f5;
+  }
+}
+
+@keyframes hideAShow {
+  0% {
+    opacity: .2;
+  }
+
+  20% {
+    opacity: .4;
+  }
+
+  40% {
+    opacity: .6;
+  }
+
+  60% {
+    opacity: .8;
+  }
+
+  80% {
+    opacity: .9;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .task{
+  animation: upADown 0.5s ease-in infinite alternate-reverse; 
+} */
+
+.task:hover {
+  animation: upADown 0.2s linear 1 alternate-reverse;
+}
+
+.task:hover .task-name{
+  animation: changeTaskBg 0.2s linear 1 alternate-reverse;
+>>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd
 }

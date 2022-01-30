@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   position: relative;
   width: 100%;
@@ -5,3 +6,12 @@
   min-height: 800px;
   
 }
+=======
+#root {
+  position: relative;
+  width: 100%;
+  /* overflow: scroll; */
+  min-height: 800px;
+  
+}
+>>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd

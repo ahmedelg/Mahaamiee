@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 describe("TestStringUtilities", function() {
 it("converts to capital", function() {
 var str = "albert";
 expect(capitalizeName(str)).toEqual("ALBERT");
 });
 
+=======
+describe("TestStringUtilities", function() {
+it("converts to capital", function() {
+var str = "albert";
+expect(capitalizeName(str)).toEqual("ALBERT");
+});
+
+>>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd
 });

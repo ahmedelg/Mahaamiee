@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* :root {
   --arrow-curved: {
     position: relative;
@@ -90,4 +91,98 @@
   width: 80px;
   background: #32557f;
   transform: rotate(135deg);
+=======
+/* :root {
+  --arrow-curved: {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-right: 9px solid #32557f;
+    transform: rotate(10deg);
+  }
+
+  --arrow-curved::after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 3px solid #32557f;
+    border-radius: 20px 0 0 0;
+    top: -12px;
+    left: -9px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+  }
+
+} */
+
+/* .task .task-name-sec{ */
+/* @apply --arrow-curved; Css4 */
+/* } */
+
+.arrow-curved {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-right: 9px solid #32557f;
+  transform: rotate(10deg);
+}
+
+.arrow-curved::after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 3px solid #32557f;
+  border-radius: 20px 0 0 0;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+}
+
+/* .task .task-name-sec{
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-right: 9px solid #32557f;
+  transform: rotate(10deg);
+} */
+
+/* .task .task-name .task-name-sec { */
+  /* position: relative; */
+  /* background: wheat; */
+/* } */
+
+/* .task .task-name .task-name-sec::after,
+.task .task-name .task-name-sec::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background: #32557f;
+} */
+
+/* .task .task-name .task-name-sec::after {
+  transform: rotate(60deg);
+} */
+
+/* .task .task-name .task-name-sec::before {
+  transform: rotate(30deg);
+} */
+/* .task .task-name .task-name-sec::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: #32557f;
+  transform: rotate(135deg);
+>>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd
 } */
