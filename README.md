@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-## mahamiee_web_app
+# mahamiee_web_app
 
 `website` `to-do` `js` `css` `animations` `productivity` `localStorage`
 
 ### Abstract
-
-#### Mahamiee helps users to achieve _the productivity_ in their various work and give theme _the motivation_ to finish the work quickly.
-
-<!--
-is a to-do app used to handle the work for users with more productivity features. -->
+Mahamiee helps users to achieve _the productivity_ in their various work and give theme _the motivation_ to finish the work quickly.
 
 ### About versions
+Mahamiee1.0.0 have been released _see links below_
 
-> Mahamiee1.0.0 have been released _see links below_
-
-### Features
+### About Features
 
 1. Add task with date
 1. Remove task
@@ -58,8 +52,3 @@ is a to-do app used to handle the work for users with more productivity features
 1. Mahamiee:
 1. Documentation:
 1. Manual User:
-
-=======
-## Mahaamiee
->> a to do app for developers
->>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd
