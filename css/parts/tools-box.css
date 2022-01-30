@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .to-do_tools-box {
   position: fixed;
   top: 661px;
@@ -63,70 +62,4 @@
   width: 20px;
   height: 20px;
   background-color: lightcyan; */
-=======
-.to-do_tools-box {
-  position: fixed;
-  top: 661px;
-  height: 100px;
-  width: 50%;
-  background: rgba(83, 146, 219, 0.6);
-  z-index: 99;
-  margin: 0px 25%;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px #2e5c91, -1px -1px 5px #2e5c91;
-}
-
-.tools-box_tool {}
-
-.tools-box_tool-icon {
-  /* width: 80px;
-  border: 1px solid #fff;
-  text-align: center;
-  margin: 15px auto;
-  height: 70px;
-  border-radius: 100%;
-  background: #fff;
-  line-height: 4;
-  cursor:pointer;
-  box-shadow: 0px 1px 3px #4280c6 inset,-0px -1px 3px #4280c6 inset;
-  color:var(--mn-clr); */
-  padding: 16px 20px;
-  position: relative;
-}
-
-.tools-box_tool img {
-  /* height: 60px;
-  width: 60px; */
-  /* border-radius: 8px; */
-  /* box-shadow:1px 2px 2px white; */
-}
-
-.tools-box_tool img:hover {
-  cursor: pointer;
-}
-
-.tools-box_tool:hover .tool-usage {
-  display: block;
-}
-
-.tools-box_tool .tool-usage {
-  position: absolute;
-  left: 48px;
-  bottom: 2px;
-  width: 10px;
-  height: 10px;
-  background-color: lightcyan;
-  border-radius: 50%;
-  display: none;
-}
-
-/* 
-.tools-box_tool img::after {
-  content: "span";
-  position: absolute;
-  z-index: 99;
-  width: 20px;
-  height: 20px;
-  background-color: lightcyan; */
->>>>>>> c38ad0feeb1a8ad2530477d68239c02ed71aecdd
 /* } */

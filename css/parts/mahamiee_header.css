@@ -9,11 +9,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0cm;
-  box-shadow: inset 1px 1px 43px #0054ff;
+  /* box-shadow: 1px 1px 13px #719ef9; */
   margin: 25px 2.2333333%;
   /* border-left: 25px solid #806b6b;
 border-right: 25px solid #806b6b; */
-  border-radius: 12px;
+  border-radius: 19px;
 }
 
 .mahamiee-header_content {}
